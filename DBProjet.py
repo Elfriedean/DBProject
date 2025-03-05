@@ -3,7 +3,7 @@ def add(Student_id, First_name, Last_name, Department_id):
     db = mysql.connector.connect(
         host="localhost", 
         user="root",      
-        password="17125481",  
+        password="123456",  
         database="su164" 
     )
     cursor = db.cursor()
@@ -15,7 +15,7 @@ def delete(Student_id):
     db = mysql.connector.connect(
         host="localhost",
         user = "root",
-        password ="17125481",
+        password ="123456",
         database = "su164"
     )
     cursor = db.cursor()
@@ -27,7 +27,7 @@ def show():
     db = mysql.connector.connect(
         host="localhost",
         user = "root",
-        password ="17125481",
+        password ="123456",
         database = "su164"
     )
     cursor = db.cursor()
@@ -40,7 +40,7 @@ def search(Student_id):
     db = mysql.connector.connect(
         host="localhost",
         user = "root",
-        password ="17125481",
+        password ="123456",
         database = "su164"
     )
     cursor = db.cursor()
@@ -53,7 +53,7 @@ def update(Student_id, First_name, Last_name, Department_id):
     db = mysql.connector.connect(
         host="localhost",
         user = "root",
-        password ="17125481",
+        password ="123456",
         database = "su164"
     )
     cursor = db.cursor()
